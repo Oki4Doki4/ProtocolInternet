@@ -1,0 +1,12 @@
+$ORIGIN test.local. 
+$TTL 1600;
+
+@     IN SOA ns.test.local. admin.test.local.ru (
+					2021031401
+					60
+					30
+					3600
+					3600
+				)
+			NS	ns.test.local.
+ns			A	127.0.0.1
